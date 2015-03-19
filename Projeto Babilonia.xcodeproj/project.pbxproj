@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616A0E881ABB921200B01D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A0E871ABB921200B01D1E /* AppDelegate.swift */; };
+		616A0E8A1ABB921200B01D1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A0E891ABB921200B01D1E /* ViewController.swift */; };
+		616A0E8D1ABB921200B01D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616A0E8B1ABB921200B01D1E /* Main.storyboard */; };
+		616A0E8F1ABB921200B01D1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616A0E8E1ABB921200B01D1E /* Images.xcassets */; };
+		616A0E921ABB921200B01D1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616A0E901ABB921200B01D1E /* LaunchScreen.xib */; };
+		616A0E9E1ABB921200B01D1E /* Projeto_BabiloniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A0E9D1ABB921200B01D1E /* Projeto_BabiloniaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616A0E981ABB921200B01D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616A0E7A1ABB921200B01D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616A0E811ABB921200B01D1E;
+			remoteInfo = "Projeto Babilonia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		616A0E821ABB921200B01D1E /* Projeto Babilonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto Babilonia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616A0E861ABB921200B01D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616A0E871ABB921200B01D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		616A0E891ABB921200B01D1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		616A0E8C1ABB921200B01D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		616A0E8E1ABB921200B01D1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		616A0E911ABB921200B01D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		616A0E971ABB921200B01D1E /* Projeto BabiloniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Projeto BabiloniaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616A0E9C1ABB921200B01D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616A0E9D1ABB921200B01D1E /* Projeto_BabiloniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_BabiloniaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616A0E7F1ABB921200B01D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616A0E941ABB921200B01D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616A0E791ABB921200B01D1E = {
+			isa = PBXGroup;
+			children = (
+				616A0E841ABB921200B01D1E /* Projeto Babilonia */,
+				616A0E9A1ABB921200B01D1E /* Projeto BabiloniaTests */,
+				616A0E831ABB921200B01D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616A0E831ABB921200B01D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616A0E821ABB921200B01D1E /* Projeto Babilonia.app */,
+				616A0E971ABB921200B01D1E /* Projeto BabiloniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616A0E841ABB921200B01D1E /* Projeto Babilonia */ = {
+			isa = PBXGroup;
+			children = (
+				616A0E871ABB921200B01D1E /* AppDelegate.swift */,
+				616A0E891ABB921200B01D1E /* ViewController.swift */,
+				616A0E8B1ABB921200B01D1E /* Main.storyboard */,
+				616A0E8E1ABB921200B01D1E /* Images.xcassets */,
+				616A0E901ABB921200B01D1E /* LaunchScreen.xib */,
+				616A0E851ABB921200B01D1E /* Supporting Files */,
+			);
+			path = "Projeto Babilonia";
+			sourceTree = "<group>";
+		};
+		616A0E851ABB921200B01D1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616A0E861ABB921200B01D1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		616A0E9A1ABB921200B01D1E /* Projeto BabiloniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				616A0E9D1ABB921200B01D1E /* Projeto_BabiloniaTests.swift */,
+				616A0E9B1ABB921200B01D1E /* Supporting Files */,
+			);
+			path = "Projeto BabiloniaTests";
+			sourceTree = "<group>";
+		};
+		616A0E9B1ABB921200B01D1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616A0E9C1ABB921200B01D1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616A0E811ABB921200B01D1E /* Projeto Babilonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616A0EA11ABB921200B01D1E /* Build configuration list for PBXNativeTarget "Projeto Babilonia" */;
+			buildPhases = (
+				616A0E7E1ABB921200B01D1E /* Sources */,
+				616A0E7F1ABB921200B01D1E /* Frameworks */,
+				616A0E801ABB921200B01D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Projeto Babilonia";
+			productName = "Projeto Babilonia";
+			productReference = 616A0E821ABB921200B01D1E /* Projeto Babilonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		616A0E961ABB921200B01D1E /* Projeto BabiloniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616A0EA41ABB921200B01D1E /* Build configuration list for PBXNativeTarget "Projeto BabiloniaTests" */;
+			buildPhases = (
+				616A0E931ABB921200B01D1E /* Sources */,
+				616A0E941ABB921200B01D1E /* Frameworks */,
+				616A0E951ABB921200B01D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616A0E991ABB921200B01D1E /* PBXTargetDependency */,
+			);
+			name = "Projeto BabiloniaTests";
+			productName = "Projeto BabiloniaTests";
+			productReference = 616A0E971ABB921200B01D1E /* Projeto BabiloniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616A0E7A1ABB921200B01D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Matheus Mignoni";
+				TargetAttributes = {
+					616A0E811ABB921200B01D1E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					616A0E961ABB921200B01D1E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 616A0E811ABB921200B01D1E;
+					};
+				};
+			};
+			buildConfigurationList = 616A0E7D1ABB921200B01D1E /* Build configuration list for PBXProject "Projeto Babilonia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616A0E791ABB921200B01D1E;
+			productRefGroup = 616A0E831ABB921200B01D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616A0E811ABB921200B01D1E /* Projeto Babilonia */,
+				616A0E961ABB921200B01D1E /* Projeto BabiloniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616A0E801ABB921200B01D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A0E8D1ABB921200B01D1E /* Main.storyboard in Resources */,
+				616A0E921ABB921200B01D1E /* LaunchScreen.xib in Resources */,
+				616A0E8F1ABB921200B01D1E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616A0E951ABB921200B01D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616A0E7E1ABB921200B01D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A0E8A1ABB921200B01D1E /* ViewController.swift in Sources */,
+				616A0E881ABB921200B01D1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616A0E931ABB921200B01D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616A0E9E1ABB921200B01D1E /* Projeto_BabiloniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616A0E991ABB921200B01D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616A0E811ABB921200B01D1E /* Projeto Babilonia */;
+			targetProxy = 616A0E981ABB921200B01D1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		616A0E8B1ABB921200B01D1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616A0E8C1ABB921200B01D1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		616A0E901ABB921200B01D1E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616A0E911ABB921200B01D1E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616A0E9F1ABB921200B01D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		616A0EA01ABB921200B01D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616A0EA21ABB921200B01D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Projeto Babilonia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		616A0EA31ABB921200B01D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Projeto Babilonia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		616A0EA51ABB921200B01D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Projeto BabiloniaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto Babilonia.app/Projeto Babilonia";
+			};
+			name = Debug;
+		};
+		616A0EA61ABB921200B01D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Projeto BabiloniaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto Babilonia.app/Projeto Babilonia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616A0E7D1ABB921200B01D1E /* Build configuration list for PBXProject "Projeto Babilonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616A0E9F1ABB921200B01D1E /* Debug */,
+				616A0EA01ABB921200B01D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616A0EA11ABB921200B01D1E /* Build configuration list for PBXNativeTarget "Projeto Babilonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616A0EA21ABB921200B01D1E /* Debug */,
+				616A0EA31ABB921200B01D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		616A0EA41ABB921200B01D1E /* Build configuration list for PBXNativeTarget "Projeto BabiloniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616A0EA51ABB921200B01D1E /* Debug */,
+				616A0EA61ABB921200B01D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616A0E7A1ABB921200B01D1E /* Project object */;
+}
