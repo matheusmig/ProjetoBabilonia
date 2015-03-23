@@ -42,7 +42,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         let gotImage = info[UIImagePickerControllerOriginalImage] as UIImage
         
-        self.lugarMostrarFoto.setValue(gotImage, forKey: "image")
+        lugarMostrarFoto.image = gotImage
+        
     }
 }
 
